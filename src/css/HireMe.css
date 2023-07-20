@@ -1,0 +1,151 @@
+.fa-arrow-right-long {
+  margin-left: 10px;
+}
+
+.hire-me-container {
+  flex-direction: row;
+  padding: 40px;
+}
+
+.hire-me-desc {
+  color: #fff;
+  font-size: 1.8rem;
+  max-width: 500px;
+}
+
+.hire-me-interaction {
+  margin-left: auto;
+  padding: 30px;
+  text-align: left;
+  text-transform: capitalize;
+}
+
+.hire-me-scroller {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  word-wrap: normal;
+}
+
+.hire-me-slider {
+  bottom: 0;
+  color: var(--c-primary-dark);
+  font-size: 1rem;
+  left: 0;
+  position: absolute;
+}
+
+.hire-me-slider > div,
+.hire-me-scroller > div {
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 800;
+  height: fit-content;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+.interaction-activate-btn-mobile {
+  display: none;
+}
+
+.interaction-title {
+  font-family: var(--ff-header);
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.interaction-body{
+  letter-spacing: 1;
+  line-height: 1.5;
+}
+
+.mail-me-btn {
+  background-color: #fff;
+  border-radius: 6px;
+  color: var(--c-primary-dark);
+  cursor: pointer;
+  display: block;
+  height: fit-content;
+  margin-top: 40px;
+  padding: 10px 15px;
+  transition: 0.5s ease-in-out;
+  width: fit-content;
+}
+
+.mail-me-btn:hover {
+  color: #000;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .hire-me-container {
+    flex-direction: column;
+  }
+
+  .hire-me-desc {
+    font-size: 1.8rem;
+  }
+
+  .hire-me-interaction {
+    bottom: 0;
+    box-shadow: 0 0 100px 1000px rgba(0, 0, 0, 0.8);
+    left: 0;
+    margin: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+
+  .interaction-activate-btn-mobile {
+    background-color: #000;
+    border-radius: 6px;
+    bottom: 20%;
+    color: #fff;
+    display: block;
+    font-family: var(--ff-header);
+    font-size: 2rem;
+    font-weight: 800;
+    height: fit-content;
+    padding: 0 20px;
+    position: absolute;
+    right: 20px;
+    width: fit-content;
+  }
+
+  .menu-page-header {
+    font-size: 4rem;
+  }
+}
+
+@-webkit-keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    opacity: 1;
+    transform: scale(0);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
+  }
+}

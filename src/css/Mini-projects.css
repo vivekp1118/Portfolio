@@ -1,0 +1,38 @@
+.mini-projects{
+    z-index: 1;
+    position: relative;
+    gap: 5%;
+}
+.block-mini-project{
+    z-index: 1;
+    font-size: 2.4rem;
+}
+.mini-projects-avatar{
+    height: 100%;
+    background: url("../assets/Images/JinWoo-cxq.png") no-repeat bottom center ;
+    background-size: auto 90%;
+    /* filter: drop-shadow(10px -10px 5px rgba(0, 0, 0, 0.7)); */
+    filter: drop-shadow(-6px -2px 3px #000000a7);
+    min-width: 50%;
+    width: 100%;
+    color:var(--fc-light );
+    z-index: 1;
+}
+
+.arrow-background-attachment{
+    height: 100%;
+    width: 100%;
+    background: url("../assets/Elements/38.png") no-repeat;
+    background-size:45%;
+    background-position:  left 20% top 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+@media screen and (max-width:768px),(min-width:810px) and (min-height: 1024px) {
+    .arrow-background-attachment{
+        all:unset;
+    }   
+}

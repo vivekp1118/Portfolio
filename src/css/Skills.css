@@ -1,0 +1,49 @@
+.skills-container{
+    flex-direction: column;
+    z-index: 1;
+    position: relative;
+}
+
+.image-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    background: url("../assets/Images/Jin_woo_skp.png") no-repeat center bottom;
+    filter: drop-shadow(2px -1px 4px black);
+    background-size: contain;
+}
+
+.icon{
+    width: 50px;
+    height: 100%;
+}
+.skills-scroll {
+    position: absolute;
+    z-index: -10;
+    bottom: -60;
+    left: 120;
+    transform: translate(-50%, -50%);
+    transform: rotate(45deg);
+  }
+
+.skills-quote{
+    font-family: var(--ff-header);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: var(--fc-dark);
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top:3px solid black;
+   width: 100%;
+   height: 60px;
+   background-color:var(--fc-light );
+   text-align: center;
+   line-height: 60px;
+}
+@media screen and (max-width: 768px) {
+    .image-container{
+        background: url("../assets/Images/Jin_woo_skp.png") no-repeat center bottom;
+        filter: drop-shadow(2px 2px 4px black);
+        background-size: 90% auto;
+    }
+}

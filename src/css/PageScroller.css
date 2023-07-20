@@ -1,0 +1,37 @@
+.page-scroller{
+    z-index: 10;
+    position: fixed;
+    max-width: fit-content;
+    max-height: fit-content;
+    display: flex;
+    gap:10px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto 20 20 auto;
+    padding: 10px 10px;
+    border-radius: 6px;
+    border: 3px transparent black;
+    /* background: rgba(255, 255, 255, 0.05); */
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+}
+.scroll-down-btn,
+.scroll-top-btn,
+.menu{
+    padding: 5px;
+    color: whitesmoke;
+    font-size: 1.8rem;
+    border-radius: 8px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;    
+    transition: all 0.3s ease-in-out;
+}
+.scroll-down-btn:hover,
+.scroll-top-btn:hover,
+.menu:hover{
+    background: rgba(0, 0, 0, 0.3);
+    color: var(--fc-dark);
+}

@@ -1,0 +1,61 @@
+.container-projects {
+    display: flex;
+    /* padding: 30px 60px 0px; */
+    position: relative;
+    gap: 10%;
+}
+.projects-text-header{
+    content: '';
+    position: absolute;
+    top:40px; 
+    left: 0;
+    background: var(--c-primary-light); 
+    width: 250px;
+    height: 60px;
+    border-radius: 0 16px 16px 0;    
+    padding-left: 40px;
+    color: var(--c-primary-dark);
+    text-transform: uppercase;
+    font-size: 2rem;
+    line-height: 60px;
+
+}
+.projects-avatar {
+    padding-right: 20px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-hero-image {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    background: url("/src/assets/Images/JinWoo-render.png") no-repeat 50% bottom;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.7));
+    background-size: auto 90%;
+    position: absolute;
+    z-index: 1;
+}
+
+.white-circled-attcahmet {
+    left: 0;
+    top: 10%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    z-index: 0;
+    width: 35vw;
+    height: 35vw ;
+    border-radius: 50%;
+    background: var(--c-primary-light);
+    position: absolute;
+}
+@media screen and (max-width: 468px) {
+    .white-circled-attcahmet{
+        all:unset;
+    }
+}

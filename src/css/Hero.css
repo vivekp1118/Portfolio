@@ -1,0 +1,92 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.hero-container {
+    padding: 0px 40px;
+    border: 4px solid black;
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: var(--c-primary-dark);
+    overflow: hidden;
+}
+
+.hero-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-height: 100%;
+    min-width: 100%;
+    background: url("../assets/Elements/circled-text.png") no-repeat 50% 50%;
+    /* background-size: 500px; */
+    animation: rotating 12s linear infinite;
+    background-size: calc(50vh + 15vw);
+    transform-origin: center;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.typography-self {
+    z-index: 5;
+}
+
+.logo-self {
+    background-image: url("../assets/Images/JinWoo-BackFacing3.png");
+    /* background-size: 300px auto; */
+        background-size: calc(50vh) auto;
+        background-repeat: no-repeat;
+        background-position: 52% bottom;
+    filter: drop-shadow(4px 4px 3px black);
+    box-shadow: 0px 0 0px black;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Fallback for Mobile Devices */
+@media (max-width: 480px) {
+
+
+    .logo-self {
+        background-size: calc(45vw + 20vh) auto;
+        background-position: 52% bottom;
+    }
+
+    .hero-container::before {
+        background-size: 90% auto;
+        background: none;
+    }
+
+    .typography-self {
+        font-size: 1.2rem;
+        text-align: center;
+        width: 100%;
+        height: fit-content;
+        line-height: 80px;
+        text-shadow: 0 0 2px #fff;
+        background: var(--c-primary-light);
+        position: absolute;
+        top: 15;
+        left: 0;
+        color: var(--fc-dark);
+        z-index: 0;
+    }
+}

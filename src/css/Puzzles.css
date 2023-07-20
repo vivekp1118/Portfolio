@@ -1,0 +1,33 @@
+.puzzle-container{
+    position: absolute;
+    height: fit-content;
+    width:fit-content;
+    color: var( --c-primary-dark);
+    z-index: 5;
+    cursor: pointer;
+    transition: ease-in 0.2s ;
+    user-select: none;
+}
+.puzzle-container:hover{
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.53);
+}
+.answer-nevigator{
+    color: var(--c-primary-dark);
+    transition: ease-in;
+}
+.answer-nevigator:hover{
+    text-decoration: underline;
+}
+.ovrlay-puzzle-question{
+    background-color: white;
+    width: 100%;
+    padding: 5px;
+    position: absolute;
+    top:0;
+    z-index: 5;
+}
+.overlay-puzzle-answer{
+    color: var(--c-primary-dark);
+    width: 100%;
+    margin-left: auto;
+}

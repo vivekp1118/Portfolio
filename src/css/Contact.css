@@ -1,0 +1,112 @@
+.contacct-container {
+    z-index: 1;
+    color: var(--fc-dark);
+}
+
+.contact-info {
+    width: 60%;
+    background: rgba(255, 255, 255, 0.5);
+    border-right: 3px double white;
+}
+
+.contact-avatar {
+    position: absolute;
+    z-index: 1;
+    height: 90%;
+    width: 70%;
+    right: 0;
+    bottom: 60px;
+    background: url("../assets/Images/JinWoo-Msg.png") no-repeat;
+    background-position: bottom 0 right 0;
+    background-size: contain;
+    filter: drop-shadow(-10px 0 4px rgba(0, 0, 0, 0.466));
+}
+.white-ractange-attachhment,
+.contact-footer{
+    position: absolute;
+    padding-left: 30px;
+    width: 100%;
+    background-color:var(--fc-light );
+}
+.white-ractange-attachhment{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    line-height: 100px;
+    font-size: 5rem;
+    margin: auto 0;
+    height: 100px;
+    color: var( --c-primary-dark);
+}
+.white-ractange-attachhment::before,
+.contact-mail{
+    color: #fff;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.534);
+}
+.white-ractange-attachhment::before{
+    content: "LET'S";
+    position: absolute;
+    top:-100;
+    width: 100px;
+}
+.contact-mail{
+    position: absolute;
+    left: 0;
+    font-size: 2rem;
+    margin-left: 30px;
+    top: 80;
+    transition: all 0.2s linear;
+}
+.contact-mail:hover{
+    color:var(--fc-light );
+}
+.contact-footer{
+    bottom: 0;
+    height: 60px;
+}
+
+.contact-footer-icon{
+    line-height: 60px;
+    margin-right: 3rem;
+    font-size: 2.5rem;
+    color: var(--fc-dark);
+    transition:  0.3s ease-in-out;
+}
+.contact-footer-icon:hover{
+    color: var(--c-primary-dark);
+    transform: scale(1.2);
+}
+@media screen and (max-width: 768px) {
+    .fa-envelope{
+        margin-right:10px;
+    }
+    .contact-mail { 
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.8rem;
+    }
+    .contact-info{
+        width: 75%;
+    }
+    .white-ractange-attachhment::before,
+    .white-ractange-attachhment,
+    .contact-footer{
+        font-size: 5rem;
+    }
+    .contact-footer,
+    .contact-mail{
+        z-index: 4;
+
+    }
+    .contact-footer-icon{
+        font-size: 2rem;
+        margin-right:30px ;
+    }
+    .contact-avatar{
+        z-index: 1;
+        width: 100%;
+        right: -10px;
+        bottom: 60px;
+    }
+}

@@ -1,0 +1,55 @@
+.conatainer-info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.info-bio {
+  padding: 0 20px;
+}
+
+.card {
+  border: 3px solid black;
+  width: fit-content;
+  max-width: 300px;
+  height: auto;
+  min-height: auto;
+  border-radius: 16px;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+
+.card-header {
+  background-color: transparent;
+  font-size: 1.6em;
+}
+
+.card-body {
+  height: auto;
+  line-height: 1.6;
+}
+
+.info-marquee-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Marquee Element */
+@media screen and (max-width: 468px) {
+  .conatainer-info {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 30px 0;
+  }
+
+  .info-marquee-container {
+    width: fit-content;
+    margin: 0;
+  }
+
+}
