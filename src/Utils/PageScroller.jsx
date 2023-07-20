@@ -1,9 +1,12 @@
 import '../css/PageScroller.css'
-import React, { useState } from 'react';
+import React, { useState ,useContext} from 'react';
 import { toggleMenu } from './Functions/menu-functions';
 import { useLocation } from 'react-router-dom';
+import { MobileContext } from "./Context";
+
 
 export function PageScroller() {
+  const { isMobile } = useContext(MobileContext);
   const [isScrolling, setIsScrolling] = useState(false);
 
   const scrollUp = () => {
@@ -39,7 +42,7 @@ export function PageScroller() {
     <>
       <div className="page-scroller">
         {
-          currentRoute === '/' &&
+          (!isMobile && currentRoute === '/') &&
           <>
             <div className="scroll-top-btn" onClick={scrollUp}>
               <i class="fa-solid fa-chevron-up"></i>

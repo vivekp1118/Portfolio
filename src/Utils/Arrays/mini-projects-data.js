@@ -4,13 +4,13 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/full/yLqZZKo",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/Color-Scheme-Generator.jpg",
+        image:"/Color-Scheme-Generator.jpg",
         url: ""
     },
     {
         name: "Anime Invitation",
         desc: "",
-        image:"../src/assets/Mini-Project/Anime-Invitation.jpg",
+        image:"/Anime-Invitation.jpg",
         codepen: "https://codepen.io/Vivekp1118/liive/ExpwXxK",
         liveUrl: "",
         url: ""
@@ -20,7 +20,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/full/MWBEbRN",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/Restaurant-app.jpg",
+        image:"/Restaurant-app.jpg",
         url: ""
     },
     {
@@ -28,7 +28,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/live/BaVjBao",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/Annoying-Cookie.jpg",
+        image:"/Annoying-Cookie.jpg",
         url: ""
     },
     {
@@ -36,7 +36,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/full/JjvgQrm",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/InstagramClone-Oldagram.jpg",
+        image:"/InstagramClone-Oldagram.jpg",
         url: ""
     },
     {
@@ -44,7 +44,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/live/YzLmrOJ",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/NFT-aka-JPEGs.jpg",
+        image:"/NFT-aka-JPEGs.jpg",
         url: ""
     },
     {
@@ -52,7 +52,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/live/MWGdZaM",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/Unit-Converter.jpg",
+        image:"/Unit-Converter.jpg",
         url: ""
     },
     {
@@ -60,7 +60,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/live/KKREVdd",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/Password-Generator.jpg",
+        image:"/Password-Generator.jpg",
         url: ""
     },
     {
@@ -68,7 +68,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/live/LYmgJRw",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/BlackJack-Game.jpg",
+        image:"/BlackJack-Game.jpg",
         url: ""
     },
     {
@@ -76,7 +76,7 @@ export default [
         desc: "",
         codepen: "https://codepen.io/Vivekp1118/live/YzLOOVG",
         liveUrl: "",
-        image:"../src/assets/Mini-Project/Basketball-Scoreboard.jpg",
+        image:"/Basketball-Scoreboard.jpg",
         url: ""
     },
 ];

@@ -11,21 +11,21 @@ import { initializeCursor } from "./Utils/Functions/initializeCursor";
 import { PageScroller } from "./Utils/PageScroller";
 import { Menu } from "./Utils/Menu";
 import { menuModel } from "./Utils/Functions/menu-functions";
-import { AnswerBoxProvider } from "./AnswerBoxContext";
 import { MobileContext } from "./Utils/Context";
 import { useContext } from "react";
 import PreLoader from "./PreLoader";
 
 export default function Index() {
-  const { isLoading } = useContext(MobileContext);
-
+  const { isLoading,isMobile} = useContext(MobileContext);
+  if (!isMobile){
+    document.body.style.overflow = 'hidden';
+  }
+  else{
+    document.body.style.overflow = 'auto';
+  }
   useEffect(() => {
     menuModel()
     initializeCursor()
-    document.body.style.overflow = 'hidden';
-    return () => {
-      document.body.style.overflow = '';
-    };
   }, [])
 
   return (

@@ -13,7 +13,7 @@ export default function Hero(){
         <div className="hero-container">
             <div className="header typography-self">I'm Vivek Prajapati. Creative Technologist.</div>
             <div className="logo-self"></div>
-            {isMobile && <div className="logo-block"></div>}
+            {!isMobile && <div className="logo-block"></div>}
 
             {isMobile && 
             <div className="Portagonist">

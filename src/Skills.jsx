@@ -16,7 +16,7 @@ export default () => {
     return (
         <div className="skills-container page">
             <div className="white-block">SKILLS</div>
-            <div className="logo-block block-middle"></div>
+            {!isMobile && <div className="logo-block block-middle"></div>}
             <div className="image-container"></div>
 
             {answerBoxOpen.findMode && <Puzzle

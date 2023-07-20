@@ -10,9 +10,10 @@ function MobileProvider({ children }) {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 468);
     };
+
     const loadingTimer = setTimeout(() => {
       setIsLoading(false); // Set isLoading to false after 30 seconds
-    }, 15000);
+    }, 9000);
     handleResize();
 
     window.addEventListener("resize", handleResize);

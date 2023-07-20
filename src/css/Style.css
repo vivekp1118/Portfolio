@@ -18,8 +18,8 @@
 
     /* Color Palette */
     --c-primary-light: #f5f5f5;
-    --c-primary-dark:  #cf2727;
-    --c-primary-dark:  #cf2727;
+    /* --c-primary-dark:  #cf2727; */
+    --c-primary-dark:  #EE5050;
     --c-primary-dark2:  #dd2a2a;
     --default-padding : 20px 60px; 
 }

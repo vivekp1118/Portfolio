@@ -63,8 +63,6 @@
 
 /* Fallback for Mobile Devices */
 @media (max-width: 480px) {
-
-
     .logo-self {
         background-size: calc(45vw + 20vh) auto;
         background-position: 52% bottom;
