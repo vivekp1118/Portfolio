@@ -165,5 +165,8 @@
         gap: 10px;
         font-size: 0.9rem;
     }
-
+    .miscellaneous-navigation-list{
+        justify-content: center;
+        gap:20px;
+    }
 }

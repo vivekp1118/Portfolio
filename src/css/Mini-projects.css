@@ -5,13 +5,12 @@
 }
 .block-mini-project{
     z-index: 1;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
 }
 .mini-projects-avatar{
     height: 100%;
     background: url("../assets/Images/JinWoo-cxq.png") no-repeat bottom center ;
     background-size: auto 90%;
-    /* filter: drop-shadow(10px -10px 5px rgba(0, 0, 0, 0.7)); */
     filter: drop-shadow(-6px -2px 3px #000000a7);
     min-width: 50%;
     width: 100%;

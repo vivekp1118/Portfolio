@@ -31,12 +31,11 @@
 }
 
 .projects-hero-image {
-    width: 100%;
     height: 100%;
-    align-self: center;
+    width: 100%;
     background: url("/src/assets/Images/JinWoo-render.png") no-repeat 50% bottom;
     filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.7));
-    background-size: auto 90%;
+    background-size: auto 85%;
     position: absolute;
     z-index: 1;
 }

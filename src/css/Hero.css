@@ -48,9 +48,9 @@
 .logo-self {
     background-image: url("../assets/Images/JinWoo-BackFacing3.png");
     /* background-size: 300px auto; */
-        background-size: calc(50vh) auto;
-        background-repeat: no-repeat;
-        background-position: 52% bottom;
+    background-size: calc(50vh) auto;
+    background-repeat: no-repeat;
+    background-position: 52% bottom;
     filter: drop-shadow(4px 4px 3px black);
     box-shadow: 0px 0 0px black;
     z-index: 1;
@@ -74,11 +74,15 @@
     }
 
     .typography-self {
-        font-size: 1.2rem;
-        text-align: center;
+        font-size: 2rem;
+        text-align: right;
+        word-spacing: 2px;
+        padding: 0 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
         width: 100%;
-        height: fit-content;
-        line-height: 80px;
+        font-family: var(--ff-header);
+        line-height: 1.5;
         text-shadow: 0 0 2px #fff;
         background: var(--c-primary-light);
         position: absolute;

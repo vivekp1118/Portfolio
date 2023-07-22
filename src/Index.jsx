@@ -19,13 +19,13 @@ export default function Index() {
   const { isLoading,isMobile} = useContext(MobileContext);
   if (!isMobile){
     document.body.style.overflow = 'hidden';
+    initializeCursor()
   }
   else{
     document.body.style.overflow = 'auto';
   }
   useEffect(() => {
     menuModel()
-    initializeCursor()
   }, [])
 
   return (

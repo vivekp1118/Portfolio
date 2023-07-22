@@ -52,7 +52,7 @@
 
 .interaction-title {
   font-family: var(--ff-header);
-  font-size: 2.5rem;
+  font-size: 2.2rem;
   letter-spacing: 3px;
   margin-bottom: 25px;
   text-transform: uppercase;
@@ -87,7 +87,7 @@
   }
 
   .hire-me-desc {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   .hire-me-interaction {
@@ -104,7 +104,7 @@
   .interaction-activate-btn-mobile {
     background-color: #000;
     border-radius: 6px;
-    bottom: 20%;
+    bottom: 15%;
     color: #fff;
     display: block;
     font-family: var(--ff-header);

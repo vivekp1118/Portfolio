@@ -11,7 +11,7 @@ export default function Hero(){
     const {answerBoxOpen} = useContext(AnswerBoxContext);
     return(
         <div className="hero-container">
-            <div className="header typography-self">I'm Vivek Prajapati. Creative Technologist.</div>
+            <div className="typography-self">I'm Vivek Prajapati. {isMobile && <br/>}Creative Technologist.</div>
             <div className="logo-self"></div>
             {!isMobile && <div className="logo-block"></div>}
 
