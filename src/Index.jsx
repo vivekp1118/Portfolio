@@ -41,8 +41,8 @@ export default function Index() {
       <AboutMe />
       <Contact />
       <PageScroller />
-      <Cursor />
       <Menu />
+      {!isMobile && <Cursor />}
     </>
   )
 

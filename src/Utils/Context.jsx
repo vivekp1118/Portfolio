@@ -12,8 +12,8 @@ function MobileProvider({ children }) {
     };
 
     const loadingTimer = setTimeout(() => {
-      setIsLoading(false); // Set isLoading to false after 30 seconds
-    }, 9000);
+      setIsLoading(false); 
+    }, 5000);
     handleResize();
 
     window.addEventListener("resize", handleResize);

@@ -10,8 +10,10 @@ export default function Hero(){
     const {isMobile} = useContext(MobileContext);
     const {answerBoxOpen} = useContext(AnswerBoxContext);
     return(
-        <div className="hero-container">
-            <div className="typography-self">I'm Vivek Prajapati. {isMobile && <br/>}Creative Technologist.</div>
+       <div className="hero-container">
+            {!isMobile ? <div className="header">I'm Vivek Prajapati. Creative Technologist.</div> :
+            <div className="typography-self">I'm Vivek Prajapati. <br/>Creative Technologist.</div>
+            }
             <div className="logo-self"></div>
             {!isMobile && <div className="logo-block"></div>}
 
