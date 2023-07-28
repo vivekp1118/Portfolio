@@ -36,7 +36,7 @@ html{
     height: 100%;
 }
 body{
-    max-width: 1400px;
+    max-width: 1700px;
     margin: 0 auto;
     min-height: 100vh;
     font-family: var(--ff-normal);
